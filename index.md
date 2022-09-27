@@ -7,6 +7,6 @@ In this class I hope to learn more about:
 
 The following is my favorite soccer club and player: 
 - Barcelona 
-  - ![] (https://wallpaperaccess.com/full/777518.jpg) 
+  - ![Barcelona] (https://wallpaperaccess.com/full/777518.jpg) 
 - Lionel Messi
-  - ![] (https://pbs.twimg.com/media/FbUUlHfUcAEoVsC?format=jpg&name=large)
+  - ![Messi] (https://pbs.twimg.com/media/FbUUlHfUcAEoVsC?format=jpg&name=large)
