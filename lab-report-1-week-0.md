@@ -1,4 +1,4 @@
 # **This is my screenshot:**
-![Screenshot](Screenshot.png)
+* ![Screenshot](Screenshot.png)
 
 
