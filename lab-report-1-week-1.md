@@ -41,8 +41,8 @@
       1. In the terminal of the your computer type in scp.
       2. Follwed by the name of the file you want to transfer. In my case it's `WhereAmI.java`
       3. Then input the server that you want to transfer to. In my case 'cs15lfa22oi@ieng6.ucsd.edu'
-      4. It is also important to put `:~/`
-      5. Hit enter
+      4. It is also important to put `:~/` at the end of the command. 
+      5. Hit enter.
       6. Type in the password for your ieng6 server. 
       7. Then you will see that `WhereAmI.java` is 100% transferred with 52.4KB/s. 
    * ![Scp WhereAmI](Scp-WhereAmI.png)
