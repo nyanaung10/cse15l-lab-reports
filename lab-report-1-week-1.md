@@ -16,22 +16,35 @@
 
 4. I tried out various commands using the remote server: 
     * `cd ~` and `cd`
+       * cd = used to move between directories
        * No result
     * `ls -lat` 
+       * use to list files in the directory with detailed information such as path and time created.
        * ![ls -lat](Try-ls-lat.png)
     * `ls -a`
+       * use to show the list of files in the directory.
        * ![ls -a](ls-a.png)
     * `ls /home/linux/ieng6/cs15lfa22/cs15lfa22oi`
+       * show file from the path.
        * ![ls /home](Try-ls.png)
     * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
+       * Prints out hello.txt file.
+       * cat command prints out files 
        * ![cat](Try-cat.png)
-       * Prints out hello.txt file
 
 5. Then I created `WhereAmI.java` file in VS Code and ran it on my computer.
    * ![WhereAmI.java in computer](WhereAmI-in-computer.png)
    * Output is Mac Os X, my name and the user directory
 
 6. Using scp command to transfer WhereAmI.java file from my computer to the ieng6 server.
+   * Steps: 
+      1. In the terminal of the your computer type in scp.
+      2. Follwed by the name of the file you want to transfer. In my case it's `WhereAmI.java`
+      3. Then input the server that you want to transfer to. In my case 'cs15lfa22oi@ieng6.ucsd.edu'
+      4. It is also important to put `:~/`
+      5. Hit enter
+      6. Type in the password for your ieng6 server. 
+      7. Then you will see that `WhereAmI.java` is 100% transferred with 52.4KB/s. 
    * ![Scp WhereAmI](Scp-WhereAmI.png)
    * Running scp command in the ieng6 server ![WhereAmI.java in server](WhereAmI-in-server.png)
    * The output now shows Linux, my username, both home and user directory of the remote computer
