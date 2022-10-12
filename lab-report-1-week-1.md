@@ -41,13 +41,14 @@
 
 6. Using scp command to transfer WhereAmI.java file from my computer to the ieng6 server.
    * Steps: 
-    1. In the terminal of the your computer type in scp.
-    2. Follwed by the name of the file you want to transfer. In my case it's `WhereAmI.java`
-    3. Then input the server that you want to transfer to. In my case 'cs15lfa22oi@ieng6.ucsd.edu'
-    4. It is also important to put `:~/` at the end of the command. 
-    5. Hit enter.
-    6. Type in the password for your ieng6 server. 
-    7. Then you will see that `WhereAmI.java` is 100% transferred to the ieng6 with 52.4KB/s. 
+    1. Make sure that you are in the directory where `WhereAmI.java` file exist.
+    2. In the terminal of the your computer type in `scp` command which is used to transfer file from local server to remote server.
+    3. Followed by the name of the file you want to transfer. In my case it's `WhereAmI.java`
+    4. Followed by inputting the server that you want to transfer to. In my case 'cs15lfa22oi@ieng6.ucsd.edu'
+    5. It is also important to put `:~/` at the end of the command to transfer it to the home directory of the ieng6 server. 
+    6. Hit enter.
+    7. Type in the password for your ieng6 server. 
+    8. Then you will see that `WhereAmI.java` is 100% transferred to the ieng6 with 52.4KB/s. 
    * ![Scp WhereAmI](Scp-WhereAmI.png)
    * Running scp command in the ieng6 server ![WhereAmI.java in server](WhereAmI-in-server.png)
    * The output now shows Linux, my username, both home and user directory of the remote computer
