@@ -65,7 +65,7 @@
       * `ssh cs15lfa22@ieng6.ucsdoi.edu "ls"`
    * Use multiple commands in one line. 
       * `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
-    ![Shortcuts](shortcut.png)
+   * ![Shortcuts](shortcut.png)
 
 
        
