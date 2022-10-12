@@ -25,8 +25,11 @@
        * Use to show the list of files in the directory, including the hidden files.
        * ![ls -a](ls-a.png)
     * `ls /home/linux/ieng6/cs15lfa22/cs15lfa22oi`
-       * show file from the path.
+       * show the list of file from the path.
        * ![ls /home](Try-ls.png)
+    * `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
+       * `cp` is used to copy the file 
+       * However, there is no result in this case because I do not have hello.txt file in my ieng6 directory. 
     * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
        * Prints out hello.txt file.
        * cat command prints out files 
