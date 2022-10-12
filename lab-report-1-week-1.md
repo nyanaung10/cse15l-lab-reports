@@ -29,7 +29,7 @@
        * ![ls /home](Try-ls.png)
     * `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
        * `cp` is used to copy the file 
-       * However, there is no result in this case because I do not have hello.txt file in my ieng6 directory. 
+       * However, there is no result in this case because I successfully copied the `hello.txt` file. 
     * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
        * Prints out hello.txt file.
        * cat command prints out files 
@@ -39,13 +39,13 @@
    * ![WhereAmI.java in computer](WhereAmI-in-computer.png)
    * Output is Mac Os X, my name and the user directory
 
-6. Using scp command to transfer WhereAmI.java file from my computer to the ieng6 server.
+6. Using scp command to securely copy WhereAmI.java file from my computer to the ieng6 server.
    * Steps: 
     1. Make sure that you are in the directory where `WhereAmI.java` file exist.
-    2. In the terminal of the your computer type in `scp` command which is used to transfer file from local server to remote server.
+    2. In the terminal of the your computer type in `scp` command which is used to securely copy file from local server to remote server.
     3. Followed by the name of the file you want to transfer. In my case it's `WhereAmI.java`
     4. Followed by inputting the server that you want to transfer to. In my case 'cs15lfa22oi@ieng6.ucsd.edu'
-    5. It is also important to put `:~/` at the end of the command to transfer it to the home directory of the ieng6 server. 
+    5. It is also important to put `:~/` at the end of the command to securely copy it to the home directory of the ieng6 server. 
     6. Hit enter.
     7. Type in the password for your ieng6 server. 
     8. Then you will see that `WhereAmI.java` is 100% transferred to the ieng6 with 52.4KB/s. 
