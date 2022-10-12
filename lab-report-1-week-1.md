@@ -44,7 +44,7 @@
     4. It is also important to put `:~/` at the end of the command. 
     5. Hit enter.
     6. Type in the password for your ieng6 server. 
-    7. Then you will see that `WhereAmI.java` is 100% transferred with 52.4KB/s. 
+    7. Then you will see that `WhereAmI.java` is 100% transferred to the ieng6 with 52.4KB/s. 
    * ![Scp WhereAmI](Scp-WhereAmI.png)
    * Running scp command in the ieng6 server ![WhereAmI.java in server](WhereAmI-in-server.png)
    * The output now shows Linux, my username, both home and user directory of the remote computer
