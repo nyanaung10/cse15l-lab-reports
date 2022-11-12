@@ -22,19 +22,24 @@
 `-mtime`, `-ctime`, and `-atime` can be used to see which file you last modified or accessed to.
 
 * `-mtime` can be used to find all of the files that were modified within a certain period of time. For instance, -5 means within 5 days. Below screenshot is showing the files that I have modified to in the last 5 days. 
+
 ![-mtime](-mtime.png)
 
-* `-ctime` can be used to find all the files that were created within a certain period of time. Below screenshot is showing the files that I had newly created within the last 4 days. 
+* `-ctime` can be used to find all the files that were created within a certain period of time. Below screenshot is showing the files that I had newly created within the last 4 days.
+ 
 ![-ctime](-ctime.png)
 
 * `-atime` can be used to find all the files that you have accessed within a certain period of time. Below screenshot is showing the files that I had accessed to in the last 3 days.
+
 ![-atime](-atime.png)
 
 As you can see there are a lot of files since I had curiously gone through many of the files in the ./technical directory.
 
 * `-mmin` can be used to find all the files that I had modified within the certain amount of minutes. For instance, -10 means within 10 minutes. Below screenshot is showing the files that I had modified within the last 10 minutes.
+
 ![-mmin](-mmin.png)
-`amin` and `cmin` can be used to find the files that I have accessed to and created within a certain minute respectively as well. 
+
+* `amin` and `cmin` can be used to find the files that I have accessed to and created within a certain minute respectively as well. 
 
 
 
