@@ -53,6 +53,9 @@ As you can see there are a lot of files since I had curiously gone through many 
 ![java](java.png)
 
 * I also tested out with `*.txt` command to search for all the txt files that exist in the ./technical directory.
+
 ![txt](txt1.png)
-However since there are too many txt files that exist in the directory, I couldn't capture all of the txt files in the screenshot. 
+
+* However since there are too many txt files that exist in the directory, I couldn't capture all of the txt files in the screenshot. 
+
 ![txt2](txt2.png)
