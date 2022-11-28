@@ -10,4 +10,5 @@
    * [Lab Report 1 - week 1](lab-report-1-week-1.md)
    * [Lab Report 2](lab_report_2.md)
    * [Week 5 Lab Report](week-5-lab-report.md)
+   * [Lab Report 5](lab_report_5.md)
     
