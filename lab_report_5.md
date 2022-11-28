@@ -58,7 +58,7 @@ fi
 
 ``` 
 
-### 3 Examples
+### 3 Example Screenshots
 
 1.  https://github.com/ucsd-cse15l-f22/list-methods-compile-error, which has a syntax error of a missing semicolon. 
 ![3rd error](3rd-error.png)
