@@ -6,8 +6,7 @@ Task Chosen:
 * Changing the name of the `start` parameter and its uses to `base`
 
 * Command Used: 
-  *
-    `:%s/start/base/g`
+   `:%s/start/base/g` <br>
     `<Enter>`
     `lllllll`
     `dw`
