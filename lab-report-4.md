@@ -5,17 +5,17 @@
 Task Chosen: 
 * Changing the name of the `start` parameter and its uses to `base`
 
-* Command Used: 
+* Command Used: <br>
    `:%s/start/base/g` <br>
-    `<Enter>`
-    `lllllll`
-    `dw`
-    `<Enter>`
-    `i`
-    `start`
-    `<Esc>`
-    `:wq`
-    `<Enter>`   
+    `<Enter>` <br>
+    `lllllll` <br>
+    `dw` <br>
+    `<Enter>` <br>
+    `i` <br>
+    `start` <br>
+    `<Esc>` <br>
+    `:wq` <br>
+    `<Enter>` <br>   
   * The `:%s/start/base/g` is the substitute command that I found in vimtutor lesson 4.It not only replaces all the `start` to `base` in one command, it is also very efficient since I don't have to go through the words one by one to change them. 
     
  * This is the screenshot before the command changing `start` to `base`, but I have already typed in the command. 
